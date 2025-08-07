@@ -5,7 +5,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 let logoutFunction = null;
 
 const api = axios.create({
-  baseURL: 'http://192.168.1.19:5002',
+  baseURL: 'http://192.168.1.68:8000',
   timeout: 15000,
 });
 

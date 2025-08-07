@@ -8,7 +8,7 @@ import globalStyles from '../styles/globalStyles';
 import colors from '../config/colors';
 
 const screenWidth = Dimensions.get('window').width;
-const API_BASE_URL = 'http://192.168.1.19:5002';
+const API_BASE_URL = 'http://192.168.1.68:8000';
 
 export default function FinanzasScreen({ navigation, route }) {
   const [financialData, setFinancialData] = useState({

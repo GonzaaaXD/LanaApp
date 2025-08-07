@@ -1,5 +1,5 @@
 // services/pagosService.js
-const API_BASE_URL = 'http://192.168.1.19:5002';
+const API_BASE_URL = 'http://192.168.1.68:8000';
 
 class PagosService {
   // Mapeo de nombres a IDs para consistencia

@@ -7,7 +7,7 @@ let baseURL = '';
 if (__DEV__) {
   // Entorno de desarrollo
   if (Platform.OS === 'android') {
-    baseURL = 'http://192.168.1.19:5002'; // Android en misma red WiFi
+    baseURL = 'http://192.168.1.68:8000'; // Android en misma red WiFi
   } else if (Platform.OS === 'ios') {
     baseURL = 'http://192.168.1.19:5002'; // iOS en misma red WiFi
   } else if (Platform.OS === 'web') {
